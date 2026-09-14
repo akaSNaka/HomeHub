@@ -135,3 +135,11 @@ Build a reliable, modular and expandable household platform.
 AI accelerates development.
 
 Testing and architecture control quality.
+
+## AI Independence
+
+The project must not depend on a single AI provider.
+
+All project knowledge should be stored in version-controlled documentation.
+
+AI assistants must use project documentation as the source of truth.
