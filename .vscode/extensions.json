@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "alefragnani.bookmarks",
+        "davidanson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-russian",
+        "ritwickdey.liveserver"
+    ]
+}
