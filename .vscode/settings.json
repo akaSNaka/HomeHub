@@ -6,6 +6,8 @@
         "HomeHub",
         "Markdownlint"
     ],
+    "files.encoding": "utf8",
     "files.insertFinalNewline": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "terminal.integrated.defaultEncoding": "utf8"
 }
