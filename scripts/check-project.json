@@ -1,4 +1,5 @@
 {
+    "$schema": "./check-project.schema.json",
     "requiredFolders": [
         ".vscode",
         "assets",
