@@ -1,0 +1,28 @@
+{
+    "requiredFolders": [
+        ".vscode",
+        "assets",
+        "docs",
+        "scripts",
+        "src",
+        "tests"
+    ],
+    "requiredFiles": [
+        "README.md",
+        "docs/ARCHITECTURE.md",
+        "docs/DEVELOPMENT_RULES.md",
+        "docs/PROJECT_MEMORY.md"
+    ],
+    "documentationFiles": [
+        "docs/AI_GUIDE.md",
+        "docs/ARCHITECTURE.md",
+        "docs/DEVELOPMENT_RULES.md",
+        "docs/PROJECT_MEMORY.md",
+        "docs/ROADMAP.md"
+    ],
+    "requiredDocumentation": [
+        "docs/ARCHITECTURE.md",
+        "docs/DEVELOPMENT_RULES.md",
+        "docs/PROJECT_MEMORY.md"
+    ],
+}

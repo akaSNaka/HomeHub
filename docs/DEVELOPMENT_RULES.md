@@ -12,16 +12,16 @@ The goal is to keep the project:
 
 ---
 
-# Language Rules
+## Language Rules
 
-## Source Code
+### Source Code
 
 - Source code uses English.
 - File names use English.
 - Variables, functions, and classes use English.
 - Standard technical terms use English.
 
-## Code Comments
+### Code Comments
 
 Code comments are written in Russian.
 
@@ -40,9 +40,9 @@ git status
 
 ---
 
-# General Development Principles
+## General Development Principles
 
-## Keep It Simple
+### Keep It Simple
 
 Prefer simple and clear solutions.
 
@@ -52,7 +52,7 @@ Avoid:
 - duplicate logic;
 - unclear structure.
 
-## Small Logical Changes
+### Small Logical Changes
 
 Each change should:
 
@@ -62,9 +62,9 @@ Each change should:
 
 ---
 
-# Code Style
+## Code Style
 
-## Readability
+### Readability
 
 Code should be easy to understand.
 
@@ -76,9 +76,9 @@ Use:
 
 ---
 
-# PowerShell Rules
+## PowerShell Rules
 
-## Encoding
+### Encoding
 
 All project files must use UTF-8 encoding.
 
@@ -87,7 +87,7 @@ Do not use:
 - ANSI;
 - Windows-1251.
 
-## Script Structure
+### Script Structure
 
 PowerShell scripts should contain:
 
@@ -105,7 +105,7 @@ Get-ChildItem docs
 
 ---
 
-# Git Rules
+## Git Rules
 
 Before commit:
 
@@ -139,7 +139,7 @@ nothing to commit, working tree clean
 
 ---
 
-# Documentation Rules
+## Documentation Rules
 
 Documentation must:
 
@@ -150,7 +150,7 @@ Documentation must:
 
 ---
 
-# Project Structure Rules
+## Project Structure Rules
 
 The project structure should remain clear.
 
@@ -172,7 +172,7 @@ HomeHub
 
 ---
 
-# AI Collaboration Rules
+## AI Collaboration Rules
 
 AI is a development tool.
 
@@ -187,6 +187,25 @@ Final decisions remain controlled by the project owner.
 
 ---
 
-# Long-Term Project Rule
+## Tool Localization Rules
+
+Project tools should support localization.
+
+Rules:
+
+- Internal code uses English.
+- Commands and technical terms use English.
+- User-facing messages should support translation.
+- Default language is English.
+- Localization settings should be stored separately from the script logic.
+
+Current approach:
+
+- Development tools may display English text with Russian translation in brackets.
+- Future versions may use separate language files.
+
+---
+
+## Long-Term Project Rule
 
 Code and documentation should be written so the project can be understood without previous conversation history.
